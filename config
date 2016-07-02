@@ -39,6 +39,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 	# start nautilus
 	bindsym $mod+n exec nautilus
 
+	# start atom
+	bindsym $mod+t exec atom
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -168,7 +171,7 @@ workspace $workspace7 output $monitor2
 workspace $workspace8 output $monitor2
 workspace $workspace9 output $monitor2
 workspace $workspace10 output $monitor2
- 
+
 # open window in workspace (find class using xprop)
 #assign [class="google-chrome"] $workspace1
 assign [class="TeamSpeak 3"] $workspace6
@@ -217,8 +220,8 @@ bindsym $mod+r mode "resize"
 bar {
 	position top
         status_command i3blocks -c /home/joe/.config/i3/i3blocks.conf
-#ø        tray_output primary
-	
+#        tray_output primary
+
 	    colors {
       separator $base03
       background $base01
@@ -247,10 +250,10 @@ bindsym $mod+shift+x exec i3lock
 exec teamspeak3
 exec steam
 exec redshift
-exec_always --no-startup-id feh --bg-scale /home/joe/Photos/background.jpgø
+exec_always --no-startup-id feh --bg-scale /home/joe/Photos/background.jpg
 exec compton -b -f --backend glx --vsync opengl-swc --unredir-if-possible
 exec xrdb /home/joe/.Xresources
-exec atom
+#exec atom
 exec google-chrome-stable
 
 # Pulse Audio controls
