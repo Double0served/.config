@@ -45,6 +45,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 	# start teamspeak3
 	bindsym $mod+t exec teamspeak3
 
+	# start libreoffice
+	bindsym $mod+p exec libreoffice
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
