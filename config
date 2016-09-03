@@ -138,8 +138,8 @@ set $workspace8 "8: VM"
 set $workspace9 "9: RDP"
 set $workspace10 "10: Terminal"
 
-set $monitor1 "DVI-I-2"
-set $monitor2 "DVI-I-3"
+set $monitor1 "DVI-I-1"
+set $monitor2 "DVI-D-0"
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
