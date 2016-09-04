@@ -171,8 +171,8 @@ workspace $workspace1 output $monitor1
 workspace $workspace2 output $monitor1
 workspace $workspace3 output $monitor1
 workspace $workspace4 output $monitor1
-workspace $workspace5 output $monitor1
 
+workspace $workspace5 output $monitor3
 workspace $workspace6 output $monitor3
 
 workspace $workspace7 output $monitor2
