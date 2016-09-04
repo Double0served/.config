@@ -128,11 +128,13 @@ bindsym $mod+a focus parent
   set $base0F #fcc09e
 
 set $workspace1 "1: Chrome"
-set $workspace2 "2: Atom"
+set $workspace2 "2: "
 set $workspace3 "3: "
 set $workspace4 "4: "
-set $workspace5 "5: "
+
+set $workspace5 "5: Chrome"
 set $workspace6 "6: Steam"
+
 set $workspace7 "7: Chrome"
 set $workspace8 "8: VM"
 set $workspace9 "9: RDP"
