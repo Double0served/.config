@@ -254,7 +254,7 @@ bar {
 
 hide_edge_borders both
 
-bindsym $mod+shift+x exec i3lock -l -e -b
+bindsym $mod+shift+x exec i3lock -leb
 
 #exec pulseaudio
 exec teamspeak3
